@@ -1,0 +1,97 @@
+#navbar {
+  width: 250px; 
+  height: 100vh; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #2c3e50; 
+  color: white;
+  padding: 20px;
+  overflow-y: auto;
+  border-right: 3px solid black;
+}
+
+#navbar header {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+#navbar li {
+  margin-bottom: 10px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom: 1px solid black;
+}
+
+#navbar ul li:first-child a {
+  border-top: 1px solid black;
+}
+
+#navbar a:hover {
+  background-color: #34495e; 
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+main {
+  display: block;
+}
+
+header {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+code {
+  display: block;
+  margin-left: 20px;
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+
+p {
+  margin-left: 10px;
+}
+
+#Variables p{
+  margin-left: 0;
+}
+
+#Data_types ul li {
+  margin: 10px;
+}
+
+#Function_declarations ul li {
+  margin: 10px;
+}
+
+#while_statement {
+  margin: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+  #navbar {
+    width: 200px;
+    padding: 15px;
+  }
+}
